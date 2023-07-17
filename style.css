@@ -1,0 +1,189 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    background-color: rgba(51,51,51,255);
+    color: white;
+    list-style: none;
+    padding: 0px 15px;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+}
+.navbar h2{
+    font-size: 29px;
+    margin-bottom: 18px;
+}
+.navbar li.left{
+   margin-right: auto;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    justify-content: center;
+    margin-left: 10px;
+}
+.navbar li a:hover{
+    background-color: darkgray;
+}
+.header {
+    display: flex;
+    width: 100%;
+    background-color:rgba(255,99,98,255);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:aliceblue;
+}
+.header h2{
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+p{
+    font-size: 14px;
+}
+.button{
+    margin-bottom: 35px;
+    color:rgba(255,99,98,255);
+    background-color: white;
+    padding: 8px 16px;
+    box-shadow:none;
+    border-radius: 4px;
+    font-size: 13px;
+    border: 0;
+}
+.aboutme{
+    display: flex;
+    width: 100%;
+    background-color: white;
+    color: black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 35px;
+}
+.aboutme h2{
+    margin-top: 55px;
+    margin-bottom: 1px;
+    font-size: 20px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color:rgba(242,242,242,255);
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+.content h2{
+    margin-left: 40px;
+    font-size: 20px;
+}
+.image-container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(242,242,242,255);
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+}
+.container{
+    padding:15px;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 340px;
+}
+.containermiddle{
+    padding:15px;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 340px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.container p{
+    margin-top: 0px;
+}
+.containermiddle p{
+    margin-top: 0px;
+}
+.image1{
+    background-image: url('./images/forrest.jpeg') ;
+    background-size: cover;
+    height: 120px;
+    width: 170px;
+    align-items: center;
+    border-radius: 3%;
+}
+.image2{
+    background-image: url('./images/lake.jpeg') ;
+    background-size: cover;
+    height: 120px;
+    width: 170px;
+    align-items: center;
+    border-radius: 3%;
+}
+.image3{
+    background-image: url('./images/finland.jpeg') ;
+    background-size: cover;
+    height: 120px;
+    width: 170px;
+    align-items: center;
+    border-radius: 3%;
+}
+.contact{
+    background-color:rgba(255,99,98,0.75)  ;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+.contact input,
+.contact textarea{
+    margin-bottom: 30px;
+    border-radius: 3px;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    padding: 9px;
+}
+.contact input::placeholder,
+.contact textarea::placeholder{
+    color: black;
+    opacity: 0.6;
+    font-size: 12px;
+}
+.contactbutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contactbutton button{
+    color:rgba(255,99,98,255);
+    padding: 8px 16px;
+    box-shadow:none;
+    font-size: 13px;
+    border: 0;
+    background-color: white;
+    border-radius: 4px;
+}
+footer{
+    background-color:rgba(51,51,51,255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+}
